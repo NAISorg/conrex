@@ -1,5 +1,7 @@
 # Conrex
 
+![Example output visualization](https://github.com/NAISorg/conrex/raw/master/priv/static/screenshot.png)
+
 This is an implementation of [Paul Bourke's CONREC algorithm in Elixir](http://paulbourke.net/papers/conrec/).
 
 ## Installation
