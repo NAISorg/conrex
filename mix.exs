@@ -5,10 +5,11 @@ defmodule CONREC.MixProject do
     [
       app: :conrex,
       description: description(),
+      package: package(),
       version: "1.0.0",
-      licenses: ["MIT"],
       elixir: "~> 1.9",
-      deps: deps()
+      deps: deps(),
+      source_url: "https://github.com/NAISorg/conrex/"
     ]
   end
 
@@ -17,6 +18,15 @@ defmodule CONREC.MixProject do
     An implementation of the CONREC contouring algorithm, described at
     <http://paulbourke.net/papers/conrec/>.
     """
+  end
+
+  defp package() do
+    %{
+      name: "conrex",
+      organization: "nais",
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/NAISorg/conrex/"}
+    }
   end
 
   defp deps do
