@@ -23,7 +23,6 @@ defmodule CONREC.MixProject do
   defp package() do
     %{
       name: "conrex",
-      organization: "nais",
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/NAISorg/conrex/"}
     }
