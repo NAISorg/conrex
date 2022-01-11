@@ -4,7 +4,14 @@
 
 ![Example output visualization](https://github.com/NAISorg/conrex/raw/master/priv/static/screenshot.png)
 
-This is an implementation of [Paul Bourke's CONREC algorithm in Elixir](http://paulbourke.net/papers/conrec/).
+The[ National Association of Independent Schools](https://nais.org) developed an Elixir implementation of the [Paul Bourke's Conrec](http://paulbourke.net/papers/conrec/) algorithm to calculate the drive-time to a particular location. The [Conrex hex package](https://hex.pm/packages/conrex) is now available to developers [here on GitHub.](https://github.com/NAISorg/conrex)
+
+Most map-based apps calculate the distance from a central point outward. That’s helpful if you want to see how long it will take you to fly somewhere else, but not so helpful if you want to calculate how long it will take customers to drive through traffic to get to your location.
+
+[Conrex](https://github.com/NAISorg/conrex) uses a convergent isochrone to calculate real traffic and topographic conditions. An implementation of [Paul Bourke's CONREC algorithm in Elixir](http://paulbourke.net/papers/conrec/), [Conrex](https://github.com/NAISorg/conrex) is now available to the open source community.    
+
+NAIS developed Conrex for its [Market View app](https://marketview.nais.org). Market View helps schools find children are within a reasonable driving distance of the school. It can also be used to map bus routes, commute times, or to determine a new location for a business.
+
 
 ## Installation
 
@@ -57,3 +64,4 @@ be seen by viewing `priv/static/index.html` in a web browser.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
