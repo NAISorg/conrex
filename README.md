@@ -61,6 +61,10 @@ Some of the tests will write output and sample data to a `contour.js` file,
 which can be used to visualize the test data and result. The visualization can
 be seen by viewing `priv/static/index.html` in a web browser.
 
+## Credits
+
+[Zack Michener](https://zjm.me/) & [Stephanie Wilkinson](https://github.com/stephaniewilkinson/)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
