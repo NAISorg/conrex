@@ -24,7 +24,7 @@ defmodule Conrex.ConrexTest do
     contours = Conrex.conrec(values, x_coords, y_coords, [600])
 
     # writes to "priv/static/contours.js" for visual verification
-    write_js_test_file(x_coords, y_coords, values, contours)
+    # write_js_test_file(x_coords, y_coords, values, contours)
 
     assert Enum.count(contours[600]) == 68
   end
